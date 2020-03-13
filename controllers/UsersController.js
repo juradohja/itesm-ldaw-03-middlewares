@@ -26,7 +26,6 @@ exports.index = (req, res) => {
   UserModel.selectAll()
     .then((data) => {
       let users = data;
-      console.log(users);
       res.render('users/index', {user: user, users: users});
     });
 }
