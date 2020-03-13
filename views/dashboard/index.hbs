@@ -1,6 +1,9 @@
 <main role="main" class="container">
   <div class="starter-template">
     <h1>You are {{ user.name }}</h1>
+    {{#if isAdmin}}
+      <a class="btn btn-primary" href="/app/users">Gestión de usuarios</a>
+    {{/if}}
     <p>
       <a href="/logout">Cierra sesión</a>
     </p>

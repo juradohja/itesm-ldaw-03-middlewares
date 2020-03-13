@@ -20,7 +20,7 @@ exports.store = (req, res) => {
     req.flash('errors', errors.array());
     return res.redirect('back');
   }
-  userModel.create({ name: req.body.name, email: req.body.email, password: req.body.password })
+  userModel.create({ name: req.body.name, email: req.body.email, password: req.body.password, role: req.body.role })
     .then((data) => {
       return res.redirect('/login');
     })

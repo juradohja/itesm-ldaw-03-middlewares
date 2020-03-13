@@ -1,4 +1,8 @@
-# Manejo de sesiones
+# Autenticación y Middlewares
+### José Alberto Jurado
+
+GD #3 de Laboratorio de Desarrollo de Aplicaciones Web. Aplicación simple que utiliza
+autenticación y middlewares para Control de Acceso Basado en Roles (RBAC).
 
 ## Requerimientos
 
